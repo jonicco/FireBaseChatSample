@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+<widget id="com.poccha.sample.firebase" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>FireBaseChatSample</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+       sample of Chat Application with FireBase..
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="jonicco@gmail.com" href="https://github.com/jonicco">
+        TeamPoccha
     </author>
     <content src="index.html" />
+
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="3.5.0" />
     <preference name="orientation" value="default" />
@@ -24,6 +25,11 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
+
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="webviewbounce" value="false" />
+
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
@@ -42,7 +48,9 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
+
     <icon src="icon.png" />
+
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
@@ -56,6 +64,7 @@
     <icon gap:platform="webos" src="www/res/icon/webos/icon-64.png" />
     <icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
     <icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
+
     <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
