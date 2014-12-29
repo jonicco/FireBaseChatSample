@@ -29,6 +29,9 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="disallowOverscroll" value="true" />
     <preference name="webviewbounce" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
 
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
